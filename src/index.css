@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+.login-registro {
+    background-image: url('detoditofront/public/background.png'),
+        linear-gradient(rgba(255, 218, 51, 0.429), rgb(153, 41, 35));
+    background-repeat: repeat !important;
+    background-size: contain !important;
+}
+
+.login-registro .titulo {
+    font-family: 'Rubik Wet Paint', sans-serif;
+}
+
+.error {
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-diferent {
+    font-family: 'Rubik Wet Paint', sans-serif;
+}
+
+.font-general {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logout {
+    z-index: 99 !important;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-wave {
+    display: inline-block;
+    animation: wave 1s ease-in-out infinite;
+}
+
+.codigos-bg {
+    background-color: rgba(255, 166, 0, 0.364);
+}
+
+.font-lst-usuarios{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center !important;
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: 2px solid lightgray;
+    font-weight: 700;
+}
+
+.font-user-code{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.93rem;
+}
+
+.font-lst-codigos-users{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
